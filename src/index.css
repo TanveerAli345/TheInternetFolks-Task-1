@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.nav--logo {
+  margin-top: 33px;
+  margin-left: 100px;
+}
+
+.nav--button {
+  margin-right: 41px;
+  margin-top: 32px;
+  height: 42px;
+  width: 122px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 21px;
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.md-button {
+  height: 42px;
+  width: 132px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 21px;
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+}
+
+.grey-transparent-btn {
+  border: 1px solid #424961;
+  color: #424961;
+}
+
+.button-red {
+  background-color: #E23744;
+  border: none;
+}
+
+.bg-button {
+  height: 63px;
+  width: 190px;
+  background-color: #E23744;
+  border-radius: 34px;
+  border: none;
+  margin-top: 41px;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: white;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero--svg {
+  width: 752px;
+  position: absolute;
+  right: 0;
+  top: -2px;
+}
+
+.hero--img {
+  width: 735px;
+  border-radius: 0 0 0 198.9px;
+}
+
+.hero--desc {
+  padding-left: 100px;
+}
+
+.hero--heading {
+  margin: 227px 0 0 0;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.875rem;
+  color: #0E2368;
+  line-height: 69px;
+}
+
+.red-text {
+  color: #E23744;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  color: #666870;
+}
+
+.fs-16 {
+  font-size: 1rem;
+}
+
+.fs-15 {
+  font-size: 0.9375rem;
+}
+
+.mt-26 {
+  margin-top: 26px;
+}
+
+.lh-27 {
+  line-height: 27px;
+}
+
+/* ABOUT US */
+
+.aboutus {
+  width: 100%;
+  padding: 186px 0 0 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.aboutus--content {
+  height: 467px;
+  width: 100%;
+  background: linear-gradient(
+      90.07deg, 
+    rgba(30, 42, 93, 0.04) 30.91%, 
+    rgba(48, 62, 130, 0.04) 64.79%, 
+    rgba(60, 80, 157, 0.04) 91.94%
+    );
+  padding: 0 205px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutus--desc {
+  width: 447px;
+}
+
+.aboutus-heading {
+  margin: 0;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #0E2368;
+  font-size: 2.8125rem;
+}
+
+.aboutus--para {
+  line-height: 27px;
+  margin-bottom: 21px;
+}
+
+/* LATEST ARTICLES */
+
+.articles {
+  width: 100%;
+  padding: 150px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.articles--heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  color: #0E2368;
+  width: 100%;
+  margin: 0 0 60px 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.card {
+  height: 554px;
+  width: 381px;
+  padding: 28px;
+  
+  border: 1.37px solid rgba(147,162,211,0.38);
+  border-radius: 21px;
+}
+
+.card--content {
+  padding: 0 15px;
+}
+
+.card p {
+  margin: 14px 0 0 0;
+}
+
+.card--img {
+  border-radius: 21px;
+}
+
+.card--heading {
+  margin: 35px 0 0 0;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #0E2368;
+  font-size: 1.3125rem;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 362px;
+  background-color: #F8F8F8;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer--content {
+  height: 150px;
+  width: 232px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0;
+}
+
+.footer ul li {
+  font-family: 'Open Sans', sans-serif;
+  color: #666870;
+  font-size: 0.9375rem;
+}
+
+.footer ul li p {
+  margin: 0;
+}
+
+.footer--heading {
+  margin: 0 0 14px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 1.1875rem;
+  color: #0E2368;
+}
